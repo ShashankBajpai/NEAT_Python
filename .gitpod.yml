@@ -6,4 +6,4 @@ ports:
     onOpen: open-preview
 tasks:
   - init: pip3 install -r pygame && pip3 install -r neat-python
-    command: python3 flappy_bird.py
+    command: python3 flappybird.py
