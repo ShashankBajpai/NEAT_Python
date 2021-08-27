@@ -5,5 +5,5 @@ ports:
   - port: 6080
     onOpen: open-preview
 tasks:
-  - init: pip3 install -r pygame && pip3 install -r neat-python
+  - init: pip3 install pygame && pip3 install neat-python
     command: python3 flappybird.py
